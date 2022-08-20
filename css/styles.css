@@ -178,7 +178,7 @@ button {
     letter-spacing: 0.06em;
 
     width: 696px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .section-first-button {   
     display: block;
@@ -315,11 +315,13 @@ footer {
     background-color: var(--background-black);
 }
 .footer{
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 .logo-footer{
+    text-decoration: none;
     display: inline-block;
-    margin-top: 60px;
+    
     margin-bottom: 20px;
 }
 .address-text {
@@ -405,7 +407,6 @@ footer {
 .portfolio-project-item{
     margin-right: 30px;
     margin-bottom: 30px;
-
     width: 370px;
     border: 1px solid var(--portfolio-border);  
 }
@@ -424,6 +425,7 @@ footer {
     line-height: 2;
     color: var(--header-black);
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 .portfolio-description {
     font-size: 16px;
