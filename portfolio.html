@@ -43,14 +43,14 @@
 						<li class="navigation-list-item">
 							<a
 								href="./index.html"
-								class="nav-menu"
+								class="nav-menu current"
 								>Студія</a
 							>
 						</li>
 						<li class="navigation-list-item">
 							<a
 								href="./portfolio.html"
-								class="nav-menu current"
+								class="nav-menu"
 								>Портфоліо</a
 							>
 						</li>
@@ -64,18 +64,24 @@
 					</ul>
 				</nav>
 				<ul class="contact-list unlist">
-					<li class="contact-list-item">
+					<li class="contact-list-item">	
+						
 						<a
 							href="mailto:info@devstudio.com"
-							class="nav-menu-links"
-							>info@devstudio.com</a
+							class="nav-menu-links svg-aligment-header"
+							><svg class="svg-contact-list-icon" width="16" height="16">
+								<use href="./images/svg/sprite-optimized.svg#icon-envelope"></use>
+							</svg> info@devstudio.com</a
 						>
+						
 					</li>
 					<li class="contact-list-item">
 						<a
 							href="tel:+380961111111"
-							class="nav-menu-links"
-							>+38 096 111 11 11</a
+							class="nav-menu-links svg-aligment-header"
+							><svg class="svg-contact-list-icon" width="16" height="16">
+								<use href="./images/svg/sprite-optimized.svg#icon-smartphone"></use>
+							</svg> +38 096 111 11 11</a
 						>
 					</li>
 				</ul>
@@ -124,16 +130,19 @@
 					</ul>
 					<ul class="portfolio-project-list unlist">
 						<li class="portfolio-project-item">
-							<img
+							<a href="#" class="portfolio-project-link">
+								<img
 								src="./images/optimized/portfolio1.jpg"
 								alt="технохряк"
 								width="370" />
-							<div class="card-desription">
-								<h2 class="portfolio-project-title">Технокряк</h2>
-								<p class="portfolio-description">Веб-сайт</p>
-							</div>
+								<div class="card-desription">
+									<h2 class="portfolio-project-title">Технокряк</h2>
+									<p class="portfolio-description">Веб-сайт</p>
+								</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio2.jpg"
 								alt="Постер New Orlean vs Golden Star"
@@ -142,8 +151,10 @@
 								<h2 class="portfolio-project-title">Постер New Orlean vs Golden Star</h2>
 								<p class="portfolio-description">Дизайн</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio3.jpg"
 								alt="Ресторан Seafood"
@@ -152,8 +163,10 @@
 								<h2 class="portfolio-project-title">Ресторан Seafood</h2>
 								<p class="portfolio-description">Додаток</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio4.jpg"
 								alt="Проєкт Prime"
@@ -162,8 +175,10 @@
 								<h2 class="portfolio-project-title">Проєкт Prime</h2>
 								<p class="portfolio-description">Маркетинг</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio5.jpg"
 								alt="Проєкт Boxes"
@@ -172,8 +187,10 @@
 								<h2 class="portfolio-project-title">Проєкт Boxes</h2>
 								<p class="portfolio-description">Додаток</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio6.jpg"
 								alt="Inspiration has no Borders"
@@ -182,8 +199,10 @@
 								<h2 class="portfolio-project-title">Inspiration has no Borders</h2>
 								<p class="portfolio-description">Веб-сайт</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio7.jpg"
 								alt="Видання Limited Edition"
@@ -192,8 +211,10 @@
 								<h2 class="portfolio-project-title">Видання Limited Edition</h2>
 								<p class="portfolio-description">Дизайн</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio8.jpg"
 								alt="Проект LAB"
@@ -202,8 +223,10 @@
 								<h2 class="portfolio-project-title">Проект LAB</h2>
 								<p class="portfolio-description">Маркетинг</p>
 							</div>
+							</a>
 						</li>
 						<li class="portfolio-project-item">
+							<a href="#" class="portfolio-project-link">
 							<img
 								src="./images/optimized/portfolio9.jpg"
 								alt="Growing Business"
@@ -212,18 +235,21 @@
 								<h2 class="portfolio-project-title">Growing Business</h2>
 								<p class="portfolio-description">Додаток</p>
 							</div>
+							</a>
 						</li>
 					</ul>
 				</div>
 			</section>
 		</main>
 		<footer class="footer">
-			<div class="container">
+			<div class="container footer-text">
+				<div >
 				<a
 					href="index.html"
 					class="logo-footer"
 					><span class="logo-blue">Web</span><span class="logo-white">Studio</span></a
 				>
+				
 				<address class="address-text">
 					<ul class="contact-list-footer unlist">
 						<li class="contact-list-footer-item">
@@ -249,6 +275,49 @@
 						</li>
 					</ul>
 				</address>
+				</div>
+				<div>
+					<p class="footer-list-name">приєднуйтесь</p>
+						<ul class="footer-social">
+							<li class="footer-social-item">
+									<div class="stuff-item-background">
+										<a href="#" class="svg-footer-link">
+											<svg class="svg-fooler-social" width="20" height="20">
+												<use href="./images/svg/sprite-optimized.svg#icon-instagram-3"></use>
+											</svg>
+								 		</a>
+									</div>
+								</li>
+								<li class="footer-social-item">
+									<div class="stuff-item-background">
+										<a href="#" class="svg-footer-link">
+											<svg class="svg-fooler-social" width="20" height="20">
+												<use href="./images/svg/sprite-optimized.svg#icon-twitter-3"></use>
+											</svg>
+								 		</a>
+								</div>
+								</li>
+								<li class="footer-social-item">
+									<div class="stuff-item-background">
+										<a href="#" class="svg-footer-link">
+											<svg class="svg-fooler-social" width="20" height="20">
+												<use href="./images/svg/sprite-optimized.svg#icon-facebook-3"></use>
+											</svg>
+								 		</a>
+								</div>
+								</li>
+								<li class="footer-social-item">
+									<div class="stuff-item-background">
+										<a href="#" class="svg-footer-link"> 
+											<svg class="svg-fooler-social" width="20" height="20">
+												<use href="./images/svg/sprite-optimized.svg#icon-linkedin-3"></use>
+											</svg>
+										</a>
+								</div>
+								</li>
+					</ul>
+				</div>
+			</div>
 			</div>
 		</footer>
 	</body>
