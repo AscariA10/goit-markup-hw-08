@@ -135,6 +135,7 @@ button {
 	margin-right: 30px;
 }
 .contact-list-item {
+
 	min-width: 135px;
 }
 .contact-list {
@@ -183,6 +184,9 @@ button {
 
 	padding-top: 200px;
 	padding-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1600px;
 }
 .section-first-slogan {
 	display: block;
@@ -245,8 +249,6 @@ button {
 	width: 270px;
 	height: 120px;
 	background-color: var(--background-grey);
-	/* text-align: center; */
-	padding: 25px 100px;
 	margin-bottom: 30px;
 }
 .section-second-item {
@@ -297,6 +299,7 @@ button {
 }
 .section-fourth-list {
 	display: flex;
+	
 }
 .section-fourth-item {
 	background-color: var(--background-color);
@@ -330,11 +333,12 @@ button {
 	line-height: 1.19;
 	text-align: center;
 
-	margin-bottom: 30px;
+	margin-bottom: 16px;
 }
 .stuff{
 	display:flex;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 .svg-stuff{
 	fill: currentColor;
@@ -343,25 +347,28 @@ button {
 	margin-right: 10px;
 }
 .stuff-item{
+	width: 44px;
+	height: 44px;
+
 	text-decoration: none;
-	margin-bottom: 30px;
+
 	background-color: transparent;
 	border-radius: 50%;
 	padding: 0px;
 }
 .stuff-item-link{
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	text-align: center;
-	padding: 12px;
-	width: 44px;
-	height: 44px;
+
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
 .stuff-item:not(:last-child){
 	margin-right: 10px;
 }
-.stuff-item-link:hover{
+.stuff-item-link:hover, .stuff-item-link:focus{
 	color: var(--background-color);
 	background-color: var(--company-blue);
 }
@@ -380,15 +387,22 @@ button {
 	column-gap: 30px;
 	text-align: center;
 }
+.clients-list-item{
+	width: 170px;
+	height: 92px;
+}
 .clients-list-link{
-	display: inline-block;
-	padding: 16px 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 100%;
+	height: 100%;
 	border: 1px solid var(--icon-color);
 	border-radius: 4px;
-	min-width: 170px;
-	min-height: 92px;
+	
 }
-.clients-list-link:hover{
+.clients-list-link:hover, .clients-list-link:focus{
 	color: var(--company-blue);
 	border-color: var(--company-blue);
 }
@@ -457,7 +471,8 @@ margin-bottom: 20px;
 }
 .footer-social-item{
 	text-decoration: none;
-	margin-bottom: 30px;
+	width: 44px;
+	height: 44px;
 	background-color: transparent;
 	border-radius: 50%;
 	padding: 0px;
@@ -467,15 +482,15 @@ margin-bottom: 20px;
 }
 .svg-footer-link{
 	background-color: var(--footer-link-backgtound);
-	display: inline-block;
+	display: flex;
 	align-items: center;
-	text-align: center;
+	justify-content: center;
 	padding: 12px;
-	width: 44px;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
-.svg-footer-link:hover{
+.svg-footer-link:hover, .svg-footer-link:focus{
 	background-color: var(--company-blue);
 }
 .svg-fooler-social{
@@ -555,7 +570,7 @@ margin-bottom: 20px;
 .portfolio-project-link{
 	display: inline-block;
 }
-.portfolio-project-link:hover{
+.portfolio-project-link:hover, .portfolio-project-link:focus{
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .card-desription {
