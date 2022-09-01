@@ -28,6 +28,8 @@
 		<link
 			rel="stylesheet"
 			href="./css/styles.css" />
+
+		
 		<title>Document</title>
 	</head>
 	<body>
@@ -93,7 +95,7 @@
 					<h1 class="section-first-slogan">Ефективні рішення для вашого бізнесу</h1>
 					<button
 						type="button"
-						class="section-first-button">
+						class="section-first-button" data-modal-open>
 						Замовити послугу
 					</button>
 				</div>
@@ -159,18 +161,21 @@
 								src="./images/optimized/img1.jpg"
 								alt="планшет з клавіатурою"
 								width="370" />
+								<p class="section-third-description">Десктопні додатки</p>
 						</li>
 						<li class="section-third-item">
 							<img
 								src="./images/optimized/img2.jpg"
 								alt="робота з телефоном"
 								width="370" />
+								<p class="section-third-description">Мобільні додатки</p>
 						</li>
 						<li class="section-third-item">
 							<img
 								src="./images/optimized/img3.jpg"
 								alt="палітра"
 								width="370" />
+								<p class="section-third-description">Дизайнерські рішення</p>
 						</li>
 					</ul>
 				</div>
@@ -384,12 +389,59 @@
 				<div class="container">
 					<h2 class="section-title">Постійні клієнти</h2>
 					<ul class="clients-list">
-						<li class="clients-list-item"><a href="#" class="clients-list-link"><svg class="svg-client" width="106" height="60"><use href="./images/svg/sprite-optimized.svg#icon-client_1"></use></svg></a></li>
-						<li class="clients-list-item"><a href="#" class="clients-list-link"><svg class="svg-client" width="106" height="60"><use href="./images/svg/sprite-optimized.svg#icon-client_2"></use></svg></a></li>
-						<li class="clients-list-item"><a href="#" class="clients-list-link"><svg class="svg-client" width="106" height="60"><use href="./images/svg/sprite-optimized.svg#icon-client_3"></use></svg></a></li>
-						<li class="clients-list-item"><a href="#" class="clients-list-link"><svg class="svg-client" width="106" height="60"><use href="./images/svg/sprite-optimized.svg#icon-client_4"></use></svg></a></li>
-						<li class="clients-list-item"><a href="#" class="clients-list-link"><svg class="svg-client" width="106" height="60"><use href="./images/svg/sprite-optimized.svg#icon-client_5"></use></svg></a></li>
-						<li class="clients-list-item"><a href="#" class="clients-list-link"><svg class="svg-client" width="106" height="60"><use href="./images/svg/sprite-optimized.svg#icon-client_6"></use></svg></a></li>
+						<li class="clients-list-item">
+							<a href="#" class="clients-list-link">
+								<svg class="svg-client" width="106" height="60">
+									<use href="./images/svg/sprite-optimized.svg#icon-client_1">
+
+									</use>
+								</svg>
+							</a>
+						</li>
+						<li class="clients-list-item">
+							<a href="#" class="clients-list-link">
+								<svg class="svg-client" width="106" height="60">
+									<use href="./images/svg/sprite-optimized.svg#icon-client_2">
+
+									</use>
+								</svg>
+							</a></li>
+						<li class="clients-list-item">
+							<a href="#" class="clients-list-link">
+								<svg class="svg-client" width="106" height="60">
+									<use href="./images/svg/sprite-optimized.svg#icon-client_3">
+
+									</use>
+								</svg>
+							</a>
+						</li>
+						<li class="clients-list-item">
+							<a href="#" class="clients-list-link">
+								<svg class="svg-client" width="106" height="60">
+									<use href="./images/svg/sprite-optimized.svg#icon-client_4">
+
+									</use>
+								</svg>
+							</a>
+						</li>
+						<li class="clients-list-item">
+							<a href="#" class="clients-list-link">
+								<svg class="svg-client" width="106" height="60">
+									<use href="./images/svg/sprite-optimized.svg#icon-client_5">
+
+									</use>
+								</svg>
+							</a>
+						</li>
+						<li class="clients-list-item">
+							<a href="#" class="clients-list-link">
+								<svg class="svg-client" width="106" height="60">
+									<use href="./images/svg/sprite-optimized.svg#icon-client_6">
+
+									</use>
+								</svg>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</section>
@@ -423,8 +475,7 @@
 							<a
 								href="tel:+380961111111"
 								class="footer-links"
-								>+38 096 111 11 11</a
-							>
+								>+38 096 111 11 11</a>
 						</li>
 					</ul>
 				</address>
@@ -473,5 +524,15 @@
 			</div>
 			</div>
 		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button type="button" class="close-button" data-modal-close>
+					<svg width="11" height="11" class="close-button-svg">
+						<use href="./images/svg/sprite-optimized.svg#icon-vector-cloze"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<script src="./modal.js"></script>
 	</body>
 </html>
