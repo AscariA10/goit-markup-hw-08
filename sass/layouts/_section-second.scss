@@ -1,0 +1,33 @@
+.section-second-list {
+    display: flex;
+}
+.section-second {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-grey);
+    margin-bottom: 30px;
+}
+.section-second-item {
+    width: calc((100% - 3 * 30px) / 4);
+}
+.section-second-item:not(:last-child) {
+    margin-right: 30px;
+}
+.section-second-advantage {
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--header-black);
+
+    margin-bottom: 10px;
+}
+.section-second-advantage-desription {
+    line-height: 1.71;
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--main-font);
+    background-color: var(--background-color);
+}
+header {
+    background-color: var(--company-white);
+    border-bottom: 1px solid var(--header-border);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--icon-color);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button {
+    border: solid transparent 1px;
+}
+footer {
+    background-color: var(--background-black);
+}

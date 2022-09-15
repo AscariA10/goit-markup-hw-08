@@ -1,0 +1,37 @@
+.section-fifth {
+    background-color: var(--background-grey); 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 30px;
+    text-align: center;
+}
+.clients-list-item {
+    width: 170px;
+    height: 92px;
+}
+.clients-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-list-link:hover,
+.clients-list-link:focus {
+    color: var(--company-blue);
+    border-color: var(--company-blue);
+}
+.svg-client {
+    fill: currentColor;
+}

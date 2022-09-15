@@ -1,0 +1,20 @@
+@import './base/variables';
+@import './base/general-styles';
+@import './utils/common-classes';
+
+@import './layouts/header';
+@import './layouts/section-first';
+@import './layouts/section-second';
+@import './layouts/section-third';
+@import './layouts/section-fourth';
+@import './layouts/section-fifth';
+@import './layouts/footer';
+@import './layouts/section-portfolio';
+@import './utils/button-list';
+@import './components/portfolio-project-card';
+@import './components/backdrop';
+
+
+@import './components/modal-window';
+@import './components/modal-form';
+
