@@ -1,8 +1,13 @@
-@import './base/variables';
+@import './utils/variables';
 @import './base/general-styles';
 @import './utils/common-classes';
+@import './utils/animation';
+@import './utils/placeholders';
+@import './utils/svg-icon';
 
 @import './layouts/header';
+@import './components/logo';
+
 @import './layouts/section-first';
 @import './layouts/section-second';
 @import './layouts/section-third';

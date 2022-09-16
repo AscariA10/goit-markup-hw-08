@@ -1,0 +1,54 @@
+// <<<===BEM===>>>
+.logo {
+    display: block;
+    text-decoration: none;
+    line-height: 1.19;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo__text{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.logo__text--blue{
+    color: var(--company-blue);
+}
+
+.logo__text--black{
+    color: var(--company-black);
+}
+
+.logo__text--white{
+    color: var(--company-white);
+}
+// <<<===BEM FINISH===>>>
+// .logo-blue {
+//     color: var(--company-blue);
+//     font-family: Raleway;
+//     font-weight: 700;
+//     font-size: 26px;
+// }
+// .logo-black {
+//     color: var(--company-black);
+//     font-family: Raleway;
+//     font-weight: 700;
+//     font-size: 26px;
+// }
+// .logo-white {
+//     color: var(--company-white);
+//     font-family: Raleway;
+//     font-weight: 700;
+//     font-size: 26px;
+// }
+
+// <<<===FOOTER LOGO===>>>
+
+.footer__logo{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
