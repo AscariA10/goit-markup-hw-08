@@ -1,32 +1,60 @@
 .section-second {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+    padding-top: 60px;
+    padding-bottom: 60px;
 
+    @media screen and (min-width:1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+     }
+}
 .features-list {
-    display: flex;
-}
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 
+    @media screen and (min-width:1200px){
+        flex-wrap:nowrap;
+        gap: 0px;
+    }
+}
 .features-list__item {
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width:768px){
+        &:not(:last-child){
+            margin-bottom: 0px;
+        }
+        width: calc((100% - 30px)/2);
+    }
+
+    @media screen and (min-width:1200px){
     width: calc((100% - 3 * 30px) / 4);
     &:not(:last-child) {
     margin-right: 30px;
+    }
 }
 }
-
 .features-card {
-    @extend %flex-center;
-    width: 270px;
-    height: 120px;
-    background-color: var(--background-grey);
-    margin-bottom: 30px;
-}
+    @include flex-aligment();
 
+    background-color: var(--background-grey);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width:1200px){
+    width: 270px;
+    }
+}
 .features-card__svg {
     width: 70px;
     height: 70px;
 }
-
 .features-card__title {
     font-size: inherit;
     font-weight: 700;
@@ -34,10 +62,13 @@
     color: var(--header-black);
 
     margin-bottom: 10px;
-}
 
+    @media screen and (max-width:767px){
+        text-align: center;
+    }   
+}
 .features-card__description {
-    line-height: 1.71;
+    line-height: 1.71;  
 }
 
 // <<<===BEFORE BEM===>>>

@@ -1,6 +1,5 @@
 .social-list {
-    @extend %flex-center;
-    margin-bottom: 30px;
+    @include flex-aligment;
 }
 
 .social-list__item {
@@ -13,13 +12,14 @@
     border-radius: 50%;
     padding: 0px;
 
-        &:not(:last-child) {
-        margin-right: 10px;
+    &:not(:last-child) {
+    margin-right: 10px;
 }
 }
 
 .social-list__link {
-    @extend %flex-center;
+
+    @include flex-aligment;
 
     width: 100%;
     height: 100%;
@@ -49,4 +49,5 @@
 
 .social-list__link--semitransparent{
     background-color: var(--footer-link-backgtound);
+    color: var(--company-white);
 }
