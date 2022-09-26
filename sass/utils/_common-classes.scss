@@ -30,22 +30,22 @@
     }
 }
 
-.current {
-    color: var(--company-blue);
+// .current {
+//     color: var(--company-blue);
 
-    &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
+//     &::after {
+//     content: "";
+//     position: absolute;
+//     bottom: 0;
 
-    display: block;
-    width: 100%;
-    height: 4px;
+//     display: block;
+//     width: 100%;
+//     height: 4px;
 
-    border: solid 2px var(--company-blue);
-    border-radius: 2px;
-}
-}
+//     border: solid 2px var(--company-blue);
+//     border-radius: 2px;
+// }
+// }
 .svg-aligment {
     @media screen and (min-width:768px){
 
